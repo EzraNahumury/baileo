@@ -2,3 +2,7 @@
 - iteration 002 — accent #00575c
 - iteration 003 — accent #7cdd37
 - iteration 004 — accent #437fac
+- iteration 005 — accent #3ba3db
+- iteration 006 — accent #02e36f
+- iteration 007 — accent #a681f0
+- iteration 008 — accent #1d017a
