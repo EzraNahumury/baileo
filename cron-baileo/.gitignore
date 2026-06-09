@@ -1,0 +1,5 @@
+# secrets — NEVER commit
+.env
+wallet-keys.txt
+addresses.txt
+logs/
