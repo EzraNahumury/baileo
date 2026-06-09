@@ -22,3 +22,7 @@
 - iteration 022 — accent #0ac033
 - iteration 023 — accent #9f3dc0
 - iteration 024 — accent #9374cb
+- iteration 025 — accent #10c29f
+- iteration 026 — accent #f04082
+- iteration 027 — accent #9410a8
+- iteration 028 — accent #681609
