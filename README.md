@@ -1,6 +1,12 @@
-# 🏛️ Baileo
+<p align="center">
+  <img src="logo.png" alt="Baileo logo" width="160" />
+</p>
 
-> **Tabungan on-chain tanpa potongan bulanan — di atas Celo Mainnet.**
+<h1 align="center">🏛️ Baileo</h1>
+
+<p align="center">
+  <b>Tabungan on-chain tanpa potongan bulanan — di atas Celo Mainnet.</b>
+</p>
 
 Baileo terinspirasi dari **rumah adat Maluku** yang menjadi tempat berkumpul, bermusyawarah, dan menyimpan nilai kebersamaan. Dalam project ini, Baileo menjadi **tempat digital untuk menyimpan aset pengguna secara aman** di jaringan Celo Mainnet.
 
