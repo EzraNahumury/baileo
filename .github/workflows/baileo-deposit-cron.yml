@@ -1,12 +1,13 @@
 name: Baileo deposit cron
 
-# 4x/day (UTC): 00:00, 06:00, 12:00, 18:00 -> 100 deposits/run = 400 tx/day.
-# GitHub cron is best-effort and may be delayed a few minutes under load.
+# 4x/day (UTC): 02:17, 08:17, 14:17, 20:17 -> 100 deposits/run = 400 tx/day.
+# Off-peak minute (:17) and hours that dodge the 00:00 UTC stampede, where
+# GitHub drops/delays scheduled runs hardest. Still best-effort, never exact.
 # Scheduled workflows only run from the default branch and pause after 60 days
 # of repo inactivity (a push re-enables them).
 on:
   schedule:
-    - cron: '0 0,6,12,18 * * *'
+    - cron: '17 2,8,14,20 * * *'
   workflow_dispatch: {}   # allow manual run for testing
 
 # Avoid overlapping runs if one is still going when the next fires.
