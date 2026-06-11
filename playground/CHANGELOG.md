@@ -198,3 +198,7 @@
 - iteration 098 — accent #72ae96
 - iteration 099 — accent #be6716
 - iteration 100 — accent #9f5409
+- iteration 001 — accent #8be220
+- iteration 002 — accent #32657e
+- iteration 003 — accent #c42496
+- iteration 004 — accent #c7f829
