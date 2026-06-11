@@ -210,3 +210,7 @@
 - iteration 010 — accent #3e0092
 - iteration 011 — accent #df2a80
 - iteration 012 — accent #0e8ea3
+- iteration 013 — accent #8a14e2
+- iteration 014 — accent #4b3579
+- iteration 015 — accent #57a5ae
+- iteration 016 — accent #9e1c70
