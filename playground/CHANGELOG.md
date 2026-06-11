@@ -214,3 +214,7 @@
 - iteration 014 — accent #4b3579
 - iteration 015 — accent #57a5ae
 - iteration 016 — accent #9e1c70
+- iteration 017 — accent #4061e8
+- iteration 018 — accent #3ec4ef
+- iteration 019 — accent #8d53e6
+- iteration 020 — accent #99c2db
