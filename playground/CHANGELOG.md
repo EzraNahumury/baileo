@@ -270,3 +270,7 @@
 - iteration 070 — accent #18019d
 - iteration 071 — accent #f2c816
 - iteration 072 — accent #539249
+- iteration 073 — accent #12541a
+- iteration 074 — accent #52915c
+- iteration 075 — accent #7e7fa4
+- iteration 076 — accent #736df7
