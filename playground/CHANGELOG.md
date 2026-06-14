@@ -502,3 +502,7 @@
 - iteration 002 — accent #7591ed
 - iteration 003 — accent #2bcb6b
 - iteration 004 — accent #8246bd
+- iteration 005 — accent #005097
+- iteration 006 — accent #14e4ed
+- iteration 007 — accent #8a16c5
+- iteration 008 — accent #5aa883
