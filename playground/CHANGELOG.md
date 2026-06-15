@@ -618,3 +618,7 @@
 - iteration 018 — accent #5d8c9a
 - iteration 019 — accent #2e22d3
 - iteration 020 — accent #23e243
+- iteration 021 — accent #dcd894
+- iteration 022 — accent #6576d7
+- iteration 023 — accent #87aef2
+- iteration 024 — accent #ba2880
