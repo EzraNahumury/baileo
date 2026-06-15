@@ -602,3 +602,7 @@
 - iteration 002 — accent #7e6cf2
 - iteration 003 — accent #63a2ef
 - iteration 004 — accent #bd3313
+- iteration 005 — accent #11e190
+- iteration 006 — accent #e5ae15
+- iteration 007 — accent #6e7f9f
+- iteration 008 — accent #bed521
