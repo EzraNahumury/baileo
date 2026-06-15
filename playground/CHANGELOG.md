@@ -610,3 +610,7 @@
 - iteration 010 — accent #02bff4
 - iteration 011 — accent #119596
 - iteration 012 — accent #1c72be
+- iteration 013 — accent #d2dcb7
+- iteration 014 — accent #2c84e7
+- iteration 015 — accent #baafc5
+- iteration 016 — accent #fc2b7c
