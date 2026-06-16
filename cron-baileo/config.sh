@@ -22,5 +22,11 @@ DEPOSIT_AMOUNT="${DEPOSIT_AMOUNT:-0.001ether}"                         # per dep
 FUND_AMOUNT="${FUND_AMOUNT:-1ether}"                                  # per wallet on distribution
 WALLET_COUNT="${WALLET_COUNT:-100}"
 
+# --- fresh-wallet mode (deposit-fresh.sh) ---
+DEPOSIT_VALUE_WEI="${DEPOSIT_VALUE_WEI:-1000000000000000}"  # 0.001 CELO, in wei
+DEPOSIT_GAS_LIMIT="${DEPOSIT_GAS_LIMIT:-70000}"             # enough for deposit()+first mint
+GAS_PRICE_BUFFER_PCT="${GAS_PRICE_BUFFER_PCT:-130}"        # gas price safety margin (130 = +30%)
+SEND_RETRIES="${SEND_RETRIES:-4}"
+
 KEYS_FILE="${KEYS_FILE:-$HERE/wallet-keys.txt}"   # one private key per line (SECRET)
 ADDR_FILE="${ADDR_FILE:-$HERE/addresses.txt}"     # one address per line (public)

@@ -1,11 +1,23 @@
 # Baileo deposit cron
 
-Spreads CELO across 100 wallets and runs `deposit()` on the Baileo contract
-4×/day via GitHub Actions (= **400 tx/day**).
+Runs `deposit()` on the Baileo contract 4×/day via GitHub Actions, from a
+**fresh set of 100 wallets every run** so the unique-depositor count (DAU)
+keeps growing.
+
+Each run (`deposit-fresh.sh`):
+1. The 100 original wallets (`WALLET_KEYS` secret) act as a treasury.
+2. Each generates one brand-new throwaway wallet and sends it just enough CELO
+   (deposit value + a gas budget computed from the live gas price).
+3. Each fresh wallet calls `deposit(0.001 CELO)` once, then is discarded.
+
+→ 100 new unique depositors per run, 400/day. 200 tx/run (100 transfers + 100
+deposits). The treasury wallets drain ~0.025 CELO each per run.
 
 - **Contract:** `0x042fe63b0efbfc285b5afd49b832a15ea8262c3a` (Celo mainnet, chain 42220)
-- **Deposit:** `0.001 CELO` per wallet per run
-- **Schedule:** GitHub cron `0 0,6,12,18 * * *` (UTC)
+- **Deposit:** `0.001 CELO` per fresh wallet per run
+- **Schedule:** GitHub cron `17 2,8,14,20 * * *` (UTC, off-peak)
+- **Tuning:** `DEPOSIT_GAS_LIMIT`, `GAS_PRICE_BUFFER_PCT` in `config.sh` control how
+  much is sent per fresh wallet (lower them to waste less, at higher revert risk).
 
 ## Files
 
