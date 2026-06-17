@@ -802,3 +802,7 @@
 - iteration 002 — accent #77d4f3
 - iteration 003 — accent #9bd1e7
 - iteration 004 — accent #7c56ad
+- iteration 005 — accent #bbb5e9
+- iteration 006 — accent #cbc9ac
+- iteration 007 — accent #61d013
+- iteration 008 — accent #d37130
